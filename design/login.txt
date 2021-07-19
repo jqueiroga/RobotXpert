@@ -1,0 +1,42 @@
+Login doi Administrador
+
+Pre-Condições:
+Dever ter um usuário Administrador cadastrado no sistema
+
+v
+pwd123
+
+Steps:
+Acessar o sistema bodytest na URL: https://bodytest-web-homolog.herokuapp.com/
+Resultado: Deve acessar de login com os campos email e senha
+
+Preencher o campo email com email da pré-condição
+Resultado: Campo aceita a entrada de dados
+
+Preencher o campo senha com senha da pré-condição
+Resultado: Campo aceita a entrada de dados
+
+Clicar no botão Entrar
+Resultado: Deve redirecionar para a área logada e deve exibir o nome
+
+Tópicos de Testes
+Login do Administrador
+Login com email não cadastrado
+Login com senha incorreta
+Login sem informar o email
+Login sem informar a senha
+Login sem informar nenhum dos campos
+Login com email estranho (inválido)
+
+BDD (Cucumber)
+Login do Administrador
+    Dado que acesso a página de Login
+    E preencho o campo email com "admin@bodytest.com"
+    E preencho o campor senha com "pwd123"
+    Quando clico em Entrar
+    Então sou logado com sucesso
+
+    (Melhorando o cenários voltado para o négocio, ao invés de passos)
+    Dado que acesso a página de Login
+    Quando submeto minhas credenciais com "admin@bodytest.com" e "pwd123"
+    Então sou logado e vou para o dashboard
