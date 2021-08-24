@@ -3,17 +3,17 @@
     "total": 3,
     "plans": [
         {
-            "title": "Planoa A",
+            "title": "Plano A",
             "duration": 12,
             "price": 25.00
         },
         {
-            "title": "Planoa B",
+            "title": "Plano B",
             "duration": 6,
             "price": 50.00
         },
         {
-            "title": "Planoa C",
+            "title": "Plano C",
             "duration": 1,
             "price": 250.00
         }

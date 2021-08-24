@@ -16,5 +16,9 @@ Go To Plans
     Click       css=a[href$=planos]
     Wait For Elements State         css=h1 >> text=Gestão de Planos     Visible         5
 
+Go To Enrolls
+    Click       css=a[href$=matriculas]
+    Wait For Elements State         css=h1 >> text=Gestão de Matrículas     Visible         5
+
 Do Logout
     Click       css=h1 >> text=Sair

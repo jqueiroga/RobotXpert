@@ -1,11 +1,11 @@
 {
     "before": {
-        "title": "Planoa Before",
+        "title": "Plano Before",
         "duration": 12,
         "price": 25.00
     },
     "after":{
-        "title": "Planoa After",
+        "title": "Plano After",
         "duration": 6,
         "price": 50.00
     }

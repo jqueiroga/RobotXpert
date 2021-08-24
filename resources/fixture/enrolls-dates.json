@@ -1,0 +1,17 @@
+{
+    "student": {
+        "name": "João Batista",
+        "email": "batjoao@coco.com",
+        "age": 68,
+        "weight": 70,
+        "feet_tall": 1.62
+    },
+    "plan":{
+        "title": "Plano Fit",
+            "duration": 12,
+            "price": 19.90
+    },
+    "days": 365
+
+
+}

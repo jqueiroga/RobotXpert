@@ -1,0 +1,17 @@
+{
+    "student": {
+        "name": "Maria Goretti",
+        "email": "jorete@maria.com",
+        "age": 59,
+        "weight": 56,
+        "feet_tall": 1.52
+    },
+    "plan":{
+        "title": "Plano Mae",
+            "duration": 6,
+            "price": 29.90
+    },
+    "days": 182
+
+
+}

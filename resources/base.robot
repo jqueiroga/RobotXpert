@@ -4,11 +4,12 @@ Documentation               Arquivo base do Projeto de Automação
 Library         Browser
 Library         Collections
 Library         OperatingSystem
-
+Library         DateTime
 Library         libs/DeloreanLibrary.py
 
 Resource        actions/auth.robot
 Resource        actions/components.robot
+Resource        actions/enrolls.robot
 Resource        actions/navigation.robot
 Resource        actions/students.robot
 Resource        actions/plans.robot

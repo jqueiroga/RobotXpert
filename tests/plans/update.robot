@@ -7,7 +7,7 @@ Suite Setup     Start Admin Session
 Test Teardown   Take Screenshot
 
 *** Test Cases ***
-Cenário: Atualizar um aluno já cadastrado
+Cenário: Atualizar um Plano já cadastrado
 
     ${updateJson}       Get JSON            plans-update.json
 
@@ -24,6 +24,6 @@ Cenário: Atualizar um aluno já cadastrado
     Go To Update Form        ${planBefore['title']}       Edição de plano
     Update Plan              ${planAfter} 
 
-    Toast Should Be             Plano Atualizado com sucesso.   
+    Toast Should Be             Plano Atualizado com sucesso   
 
     [Teardown]      Thinking And Take Screenshot        2     
