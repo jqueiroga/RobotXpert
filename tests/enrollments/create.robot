@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation                       Suite de Cadastro de Matrículas
+Documentation                       Suite de Cadastro de Matrículas.
 
 Resource         ${EXECDIR}/resources/base.robot
 
